@@ -112,9 +112,9 @@ public:
 
 int main()
 {
-    FullTimeEmployee emp1(201, "Rahul", "Development", 60000);
-    PartTimeEmployee emp2(202, "Priya", "Finance", 300, 100);
-    Intern emp3(203, "Karan", "Testing", 12000);
+    FullTimeEmployee emp1(201, "Sujas", "Development", 60000);
+    PartTimeEmployee emp2(202, "Sarth", "Finance", 300, 100);
+    Intern emp3(203, "Shubham", "Testing", 12000);
 
     cout << "===== Employee Salary Details =====" << endl;
 
