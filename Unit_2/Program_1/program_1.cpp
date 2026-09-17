@@ -29,6 +29,7 @@ public:
 
 class FullTimeEmployee : public Employee
 {
+private:
     double monthlySalary;
 
 public:
@@ -46,13 +47,16 @@ public:
     void display() const
     {
         showInfo();
+
         cout << " | Type: Full-Time"
-             << " | Salary: Rs. " << calculateSalary() << endl;
+             << " | Salary: Rs. "
+             << calculateSalary() << endl;
     }
 };
 
 class PartTimeEmployee : public Employee
 {
+private:
     double ratePerHour;
     int totalHours;
 
@@ -72,13 +76,16 @@ public:
     void display() const
     {
         showInfo();
+
         cout << " | Type: Part-Time"
-             << " | Salary: Rs. " << calculateSalary() << endl;
+             << " | Salary: Rs. "
+             << calculateSalary() << endl;
     }
 };
 
 class Intern : public Employee
 {
+private:
     double monthlyStipend;
 
 public:
@@ -96,8 +103,10 @@ public:
     void display() const
     {
         showInfo();
+
         cout << " | Type: Intern"
-             << " | Stipend: Rs. " << calculateSalary() << endl;
+             << " | Stipend: Rs. "
+             << calculateSalary() << endl;
     }
 };
 
