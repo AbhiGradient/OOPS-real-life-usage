@@ -1,0 +1,5 @@
+2026-09-15 09:00:00 INFO System started
+2026-09-15 09:15:00 WARNING CPU usage high
+2026-09-15 09:30:00 ERROR Network connection lost
+2026-09-15 09:45:00 INFO System backup completed
+2026-09-15 10:00:00 CRITICAL Storage almost full
